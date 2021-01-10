@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <h1>Profile Card</h1>
+    <main>
+      <form class="form">
+        <h2>Profile</h2>
+        <section>
+          Drag an image into this section or
+          <label>
+            select an image
+            <input type="file" id="file-input" accept="image/*" />
+          </label>
+        </section>
+        <div class="form-group">
+          <label for="name"> Name </label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div class="form-group">
+          <label for="occupation"> Occupation </label>
+          <input type="text" name="occupation" id="occupation" />
+        </div>
+      </form>
+
+      <section class="profile-card">
+        <div class="img-container">
+          <img src="http://via.placeholder.com/200" alt="" />
+        </div>
+        <span class="name">Name</span>
+        <span class="occupation">Occupation</span>
+      </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>
